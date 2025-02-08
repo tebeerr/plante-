@@ -1,4 +1,11 @@
-/* Style de base pour la page */
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -11,23 +18,19 @@ body {
     position: relative;
 }
 
-/* Image de fond floue */
 .background-image {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../images/reclamation.webp'); /* Chemin vers l'image de fond */
+    background-image: url('../images/reclamation.webp');
     background-size: cover;
     background-position: center;
-    filter: blur(8px); /* Appliquer un flou à l'image de fond */
-    z-index: -1; /* Placer l'image en arrière-plan */
+    filter: blur(8px); 
+    z-index: -1;
 }
 
-/* Conteneur du formulaire */
 .reclamation-box {
-    background-color: rgba(255, 255, 255, 0.9); /* Fond blanc semi-transparent */
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -44,7 +47,6 @@ body {
     color: #333;
 }
 
-/* Style des groupes de formulaire */
 .form-group {
     margin-bottom: 15px;
     text-align: left;
@@ -68,12 +70,11 @@ body {
 }
 
 .form-group textarea {
-    resize: vertical; /* Permettre le redimensionnement vertical uniquement */
+    resize: vertical;
 }
 
-/* Style du bouton */
 .reclamer-btn {
-    background-color: #af4c4c; /* Vert */
+    background-color: #af4c4c;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -84,9 +85,9 @@ body {
 }
 
 .reclamer-btn:hover {
-    background-color: #951e1e; /* Vert plus foncé au survol */
+    background-color: #951e1e;
 }
-/* Style du menu en haut */
+
 .header {
     position: absolute;
     top: 0;
@@ -95,21 +96,18 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
-    background-color: transparent; /* Fond transparent */
-    z-index: 1; /* S'assurer que le menu est au-dessus de l'image de fond */
+    background-color: transparent; 
+    z-index: 1;
 }
 
-/* Style du logo */
 .header .logo {
-    height: 70px; /* Ajustez la taille du logo selon vos besoins */
+    width: 150px;
 }
 
-/* Style de la navigation */
 .header .nav {
-    margin-left: 20px; /* Espace entre le logo et le lien Accueil */
+    margin-left: 20px;
 }
 
-/* Style du lien Accueil */
 .header .nav-link {
     text-decoration: none;
     color: #fbf9f9;
@@ -121,5 +119,7 @@ body {
 }
 
 .header .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Effet de survol léger */
+    background-color: rgba(255, 255, 255, 0.2);
 }
+
+

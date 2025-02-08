@@ -14,7 +14,6 @@ body {
     margin: 0 auto;
 }
 
-/* tete de page */
 
 header.header {
     display: flex;
@@ -32,7 +31,6 @@ section.top-page {
     padding: 25px;
 }
 
-/* page de bienvenue (landing page) */
 
 .landing-page {
     position: relative;
@@ -53,7 +51,6 @@ section.top-page {
         font-size:  100px;
     }
 }
-
 
 
 .scroll-down {
@@ -112,7 +109,6 @@ nav.nav li a:hover{
     text-align: center;
 }
 
-/* best sells */
 
 .section-title {
     font-size: 50px;
@@ -189,7 +185,6 @@ nav.nav li a:hover{
     font-weight: 800;
 }
 
-/* nos plantes */
 
 .all-plants {
     margin: 100px;
@@ -236,7 +231,6 @@ nav.nav li a:hover{
     grid-row: 3/5;
 }
 
-/* pied de page */
 
 footer {
     display: flex;
