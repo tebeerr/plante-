@@ -65,7 +65,7 @@ nav.nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 600px;
+    width: 800px;
     margin-left: 30px;
 }
 
@@ -229,6 +229,42 @@ nav.nav li a:hover{
     background-image: url(../images/nos_plantes/6.jpg);
     grid-column: 4;
     grid-row: 3/5;
+}
+
+.partenaires {
+    margin: 100px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    overflow-x: auto;
+}
+
+.header-row {
+    background-color: #808080;
+}
+
+& th {
+    background-color: #808080;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #666;
+    font-size: 14px;
+}
+
+& td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    
 }
 
 
